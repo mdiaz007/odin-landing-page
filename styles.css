@@ -3,13 +3,15 @@ body {
     margin: 0; /* makes website reach the edges of page */
     display: flex;
     flex-direction: column;
+    background-color: rebeccapurple;
 }
 
-/* * {
+/* 
+* {
     border: green solid 1px;
 } */
 
-.header, .hero {
+.header, .hero, .containerThree, .footer {
     padding: 0px 300px;
 }
 
@@ -94,7 +96,9 @@ body {
 .containerOne {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    align-items: center;
+    background-color: #F9FAF8;
+    padding-bottom: 50px;
 }
 
 .containerOne .sectionTitle h3{
@@ -108,7 +112,6 @@ body {
 .cardContainer, .containerTwo{
     display: flex;
     justify-content: space-between;
-    margin: 0 0 50px 0;
 }
 
 .card {
@@ -152,3 +155,42 @@ body {
     margin: 15px 0 50px 0;
 }
 
+.containerThree {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerThree .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.containerThree .left-side h3{
+    color: #F9FAF8;
+    margin: 30px 0 0 0;
+}
+
+.containerThree .left-side p{
+    color: #F9FAF8;
+    margin: 0 0 30px 0;
+}
+
+.containerThree .container button {
+    align-self: center;
+    width: 80px;
+    height: 25px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: white solid 2px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    border: blue solid;
+}
