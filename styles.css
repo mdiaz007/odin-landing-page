@@ -9,7 +9,7 @@ body {
     border: green solid 1px;
 } */
 
-.header, .hero, .containerOne {
+.header, .hero {
     padding: 0px 300px;
 }
 
@@ -87,6 +87,10 @@ body {
     color: #F9FAF8;
 }
 
+.containerOne, .containerTwo {
+    padding: 0px 325px;
+}
+
 .containerOne {
     display: flex;
     flex-direction: column;
@@ -101,7 +105,7 @@ body {
     font-weight: 750;
 }
 
-.cardContainer {
+.cardContainer, .containerTwo{
     display: flex;
     justify-content: space-between;
     margin: 0 0 50px 0;
@@ -125,3 +129,26 @@ body {
     margin: 15px 0 0 0;
     width: 200px;
 }
+
+.containerTwo {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+
+.containerTwo .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 50px 0 0 0;
+}
+
+.containerTwo .author {
+    font-size: 24px;
+    color: #1F2937;
+    text-align: end;
+    font-weight: 750;
+    margin: 15px 0 50px 0;
+}
+
