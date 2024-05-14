@@ -9,9 +9,13 @@ body {
     border: green solid 1px;
 } */
 
+.header, .hero {
+    padding: 10px 300px;
+}
+
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1F2937;
 }
 
@@ -33,5 +37,45 @@ body {
 .links li, .links a{
     list-style: none;
     text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .left-side, .hero .right-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 30px 0 75px 0;
+}
+
+.hero .right-side {
+    max-width: 500px;
+}
+
+.hero .left-side h1, .hero .left-side p{
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+}
+
+.hero .left-side h1{
+    font-size: 48px;
+}
+
+.hero .left-side button{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background-color: #3882F6;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
     color: #F9FAF8;
 }
