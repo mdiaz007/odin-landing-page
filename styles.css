@@ -11,7 +11,7 @@ body {
     border: green solid 1px;
 } */
 
-.header, .hero, .containerThree, .footer {
+.header, .hero, .containerThree, .footer, .containerThree {
     padding: 0px 300px;
 }
 
@@ -90,13 +90,12 @@ body {
 }
 
 .containerOne, .containerTwo {
-    padding: 0px 325px;
+    padding: 0px 350px;
 }
 
 .containerOne {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #F9FAF8;
     padding-bottom: 50px;
 }
@@ -158,6 +157,9 @@ body {
 .containerThree {
     display: flex;
     flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #F9FAF8;
 }
 
 .containerThree .container {
@@ -191,6 +193,14 @@ body {
 
 .footer {
     display: flex;
-    flex: 1;
-    border: blue solid;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 10px
+}
+
+.footer .footer-text{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 25px;
 }
