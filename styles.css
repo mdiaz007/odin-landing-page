@@ -34,10 +34,18 @@ body {
     align-items: center;
 }
 
-.links li, .links a{
+.links li {
+    padding: 0;
     list-style: none;
+}
+
+.links a {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
     text-decoration: none;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 .hero {
@@ -69,7 +77,6 @@ body {
 }
 
 .hero .left-side button{
-    display: inline-block;
     width: 80px;
     height: 25px;
     background-color: #3882F6;
