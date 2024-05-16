@@ -3,7 +3,6 @@ body {
     margin: 0; /* makes website reach the edges of page */
     display: flex;
     flex-direction: column;
-    background-color: rebeccapurple;
 }
 
 /* 
